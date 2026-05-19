@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Luis Panades Molina</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 36px 28px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1a3a6b, #2e6be6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      font-size: 32px;
+      color: white;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #1a1a2e;
+      font-weight: 700;
+    }
+
+    .title {
+      font-size: 14px;
+      color: #2e6be6;
+      font-weight: 600;
+      margin: 4px 0 2px;
+    }
+
+    .company {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 24px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #eee;
+      margin: 0 0 20px;
+    }
+
+    .info-list {
+      list-style: none;
+      text-align: left;
+    }
+
+    .info-list li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .info-list li:last-child { border-bottom: none; }
+
+    .info-list a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .info-list a:hover { color: #2e6be6; }
+
+    .icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      flex-shrink: 0;
+    }
+
+    .icon.phone  { background: #e8f4e8; }
+    .icon.email  { background: #fff3e0; }
+    .icon.web    { background: #e8eaf6; }
+    .icon.addr   { background: #fce4ec; }
+
+    .btn {
+      display: block;
+      margin-top: 24px;
+      padding: 14px;
+      background: linear-gradient(135deg, #1a3a6b, #2e6be6);
+      color: white;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .btn:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <div class="avatar">JP</div>
+
+    <h1>Juan Luis Panades Molina</h1>
+    <p class="title">Gerente de Proyecto</p>
+    <p class="company">Puga, Mujica Asociados S.A.</p>
+
+    <div class="divider"></div>
+
+    <ul class="info-list">
+      <li>
+        <span class="icon phone">📞</span>
+        <a href="tel:+56228383100">+56 2 2838 3100</a>
+      </li>
+      <li>
+        <span class="icon email">✉️</span>
+        <a href="mailto:jpanades@pugamujica.cl">jpanades@pugamujica.cl</a>
+      </li>
+      <li>
+        <span class="icon web">🌐</span>
+        <a href="https://www.pugamujica.cl/" target="_blank">pugamujica.cl</a>
+      </li>
+      <li>
+        <span class="icon addr">📍</span>
+        <span>Badajoz 45, Piso 5, Edificio Los Fundadores 2, Las Condes, Santiago</span>
+      </li>
+    </ul>
+
+    <a class="btn" href="juan_panades.vcf" download>
+      ＋ Guardar contacto
+    </a>
+
+  </div>
+</body>
+</html>
