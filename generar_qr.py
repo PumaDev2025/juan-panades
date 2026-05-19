@@ -12,7 +12,7 @@ from PIL import Image
 NOMBRE       = "Juan Luis Panades Molina"
 CARGO        = "Gerente de Proyecto"
 EMPRESA      = "Puga, Mujica Asociados S.A."
-TELEFONO     = "+56228383100"
+TELEFONO     = "+56933185960"
 CORREO       = "jpanades@pugamujica.cl"
 DIRECCION    = "Badajoz 45 Piso 5, Edificio Los Fundadores 2, Las Condes, Santiago, Chile"
 WEB          = "https://www.pugamujica.cl/"
